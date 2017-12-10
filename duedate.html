@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Due Date</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<form>
+				<label>Start day</label>
+				<select name="start-day">
+					<option value="1">Monday</option>
+					<option value="2">Tuesday</option>
+					<option value="3">Wednesday</option>
+					<option value="4">Thursday</option>
+					<option value="5">Friday</option>
+				</select><br />
+
+				<label>Start hour</label>
+				<select name="start-hour">
+					<option value="0">9</option>
+					<option value="1">10</option>
+					<option value="2">11</option>
+					<option value="3">12</option>
+					<option value="4">13</option>
+					<option value="5">14</option>
+					<option value="6">15</option>
+					<option value="7">16</option>
+					<option value="8">17</option>
+				</select><br />
+			
+				<label>Days</label> <input type="number" name="day" value="0" /><br />
+				<label>Hours</label> <input type="number" name="hour" value="0" /><br />
+				<input type="submit" name="" />	
+			</form>
+		</div>
+		<div>
+			<h2>Calculated due date</h2>
+			<p></p>
+		</div>
+		<script type="text/javascript" src="./src/due-date.js"></script>
+	</body>
+</html>
